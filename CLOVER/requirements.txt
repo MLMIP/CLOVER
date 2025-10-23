@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+torch==2.0.1
+torchvision==0.15.2
+matplotlib
+numpy==1.24.4
+tensorboard
+=======
+<<<<<<< HEAD
+torch==2.0.1
+torchvision==0.15.2
+matplotlib
+numpy==1.24.4
+tensorboard
+=======
+torch==2.0.1
+torchvision==0.15.2
+matplotlib
+numpy==1.24.4
+tensorboard
+>>>>>>> 6adf1bb (Initial commit)
+>>>>>>> 79d8523 (Upload existing project)
+tqdm
