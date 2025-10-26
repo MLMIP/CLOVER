@@ -20,19 +20,16 @@ Official code for NeurIPS 2025 paper "[Confusion-Driven Self-Supervised Progress
 <a id="requirements"></a>
 ## Requirements
 
-Clone this repository:
+Upload this repository to "/kaijiang/yuzhang/projects":
 
 ```bash
-git clone https://github.com/MLMIP/CLOVER.git
 cd CLOVER/
 ```
 
 Install the dependencies:
 
 ```bash
-conda create -n CLOVER python=3.10
-conda activate CLOVER
-pip install -r requirements.txt
+export PATH="/kaijiang/yuzhang/anaconda3/bin:$PATH" ; source activate project1 ; cd /kaijiang/yuzhang/projects/CLOVER/
 ```
 
 <a id="usage"></a>
@@ -41,7 +38,7 @@ pip install -r requirements.txt
 
 ### Dataset Storage Format
 
-Make sure your dataset is placed in the "./dataset" path and the directory structure is:
+Make sure your dataset is placed in the "/kaijiang/yuzhang/data" path and the directory structure is:
 
 ```
 dataset/
@@ -71,20 +68,27 @@ dataset/
 
 If you prepare your custom data following the above storage format, you can start training by executing the following command in the terminal.
 
+#### CIFAR100
+
 Run CLOVER on CIFAR100 50 base classes, 5 tasks, 10 classes each:
 ```bash
 bash script/cifar100/50+5x10.sh
 ```
 
-Run CLOVER on CIFAR100 50 base classes, 10 tasks, 5 classes each:
+#### ImageNet-Subset
+
+Run CLOVER on ImageNet-Subset 50 base classes, 5 tasks, 10 classes each:
 ```bash
-bash script/cifar100/50+10x5.sh
+bash script/imagenetSubset/50+5x10.sh
 ```
 
-Run CLOVER on CIFAR100 40 base classes, 20 tasks, 3 classes each:
+#### TinyImageNet
+
+Run CLOVER on TinyImageNet 100 base classes, 5 tasks, 20 classes each:
 ```bash
-bash script/cifar100/40+20x3.sh
+bash script/tinyimagenet/100+5x20.sh
 ```
+
 
 <a id="citation"></a>
 
