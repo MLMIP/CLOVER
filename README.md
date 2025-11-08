@@ -94,9 +94,9 @@ If you find our work is useful for your research, please consider citing:
 
 ```
 @inproceedings{
-    anonymous2025confusiondriven,
+    hu2025confusiondriven,
     title={Confusion-Driven Self-Supervised Progressively Weighted Ensemble Learning for Non-Exemplar Class Incremental Learning},
-    author={Anonymous},
+    author={Kai Hu and Zhang Yu and Yuan Zhang and Zhineng Chen and Xieping Gao},
     booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
     year={2025},
     url={https://openreview.net/forum?id=yflq8Bhjrw}
