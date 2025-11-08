@@ -107,4 +107,4 @@ If you find our work is useful for your research, please consider citing:
 
 ## Acknowledgments
 
-Our code is inspired by [SEED](https://github.com/grypesc/SEED) and [PASS](https://github.com/Impression2805/CVPR21_PASS).
+Our code is inspired by [SEED](https://github.com/grypesc/SEED), [PASS](https://github.com/Impression2805/CVPR21_PASS) and [PGLS](https://github.com/MLMIP/PGLS).
